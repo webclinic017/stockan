@@ -1,16 +1,15 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 
 setup(
-    name='talan',
-    version='0.1.0',    
-    description='a Technical Algorithmic Analytics Python package',
-    url='https://github.com/beyondbond/talan',
-    author='Stephen Hudson',
+    name='stockan',
+    version='0.0.1',    
+    description='Stock Analysis',
+    url='https://github.com/beyondbond/stockan',
+    author='Ted Hong',
     author_email='ted@beyondbond.com',
     license='BSD 2-clause',
-    packages=['talan'],
     install_requires=['pandas','numpy'],
-
+    packages = find_packages(),
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Investment/Research',
